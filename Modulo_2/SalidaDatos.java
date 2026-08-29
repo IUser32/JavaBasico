@@ -9,9 +9,11 @@ public class SalidaDatos {
 
         System.out.println("Hola " + nombre + ", tienes " + edad + " años.");
 
+        // Ejemplos utilizando print y println
         System.out.print(nombre);
         System.out.print(" ");
         System.out.print(edad);
+        System.out.println(); // Para agregar una nueva línea
 
     }
 }
