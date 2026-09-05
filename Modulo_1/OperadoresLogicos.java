@@ -7,6 +7,10 @@ public class OperadoresLogicos {
         boolean esMayorDeEdad = true;
         boolean tieneLicencia = false;
 
+
+        // && -> Para que de un valor verdadero TODAS las condiciones deben ser verdaderas.
+
+
         // Operador AND (&&)
         if (esMayorDeEdad && tieneLicencia) {
             System.out.println("Puede conducir.");
@@ -14,6 +18,7 @@ public class OperadoresLogicos {
             System.out.println("No puede conducir.");
         }
 
+        // || -> Para que de un valor verdadero AL MENOS UNA de las condiciones debe ser verdadera.
         // Operador OR (||)
         if (esMayorDeEdad || tieneLicencia) {
             System.out.println("Puede acceder al club.");
@@ -21,6 +26,7 @@ public class OperadoresLogicos {
             System.out.println("No puede acceder al club.");
         }
 
+        
         // Operador NOT (!)
         if (!tieneLicencia) {
             System.out.println("Debe obtener una licencia para conducir.");
